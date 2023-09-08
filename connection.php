@@ -1,7 +1,7 @@
 <?php
 // Database connection parameters
 $db_host = '127.0.0.1';
-$db_username = 'joaoboaventura@localhost';
+$db_username = 'joaoboaventura2';
 $db_password = 'Socceristhe1';
 $db_name = 'premier_league';
 
