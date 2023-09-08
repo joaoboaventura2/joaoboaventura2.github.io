@@ -1,0 +1,20 @@
+nav {
+    padding: 5px; /* Add some padding for spacing */
+    margin-top: 15px; /* Adjust margin to move the nav closer to the heading */
+}
+
+/* styles.css */
+.column-container {
+    display: flex; /* Use flexbox for creating columns */
+    justify-content: space-between; /* Space columns evenly */
+}
+
+.column {
+    flex: 1; /* Each column takes equal space */
+    padding: 10px; /* Add padding for spacing */
+    border: 1px solid #ccc; /* Add borders for separation (optional) */
+}
+
+h3 {
+    margin-right: 100px; /* Adjust the value as needed to move the <h3> to the left */
+}
