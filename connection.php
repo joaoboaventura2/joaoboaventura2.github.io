@@ -14,11 +14,18 @@ if ($conn->connect_error) {
 }
 
 // Retrieve data from the form
-    $team_name = $_POST["team_name"];
-    $stadium_name = $_POST["stadium_name"];
+    $first_name = $_POST["first_name"];
+    $last_name = $_POST["last_name"];
+    $country = $_POST["country"];
+    $age = $_POST["age"];
+    $player_number = $_POST["player_number"];
+    $player_position = $_POST["player_position"];
+    $market_value = $_POST["market_value"];
+    $height = $_POST["height"];
+    $player_team = $_POST["player_team"];
 
     // Insert data into the database
-    $sql = "INSERT INTO your_table_name (name, email) VALUES ('$name', '$email')";
+    $sql = "INSERT INTO players_name (first_name, last_name, country, age, player_number, player_position, market_value, height, player_team) VALUES ('$first_name', '$last_name', '$country', '$age', '$player_number', '$player_position', '$market_value', '$height', '$player_team')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Data inserted successfully";
